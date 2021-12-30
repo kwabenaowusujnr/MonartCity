@@ -6,16 +6,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="Monart City Next Frontier">
 <!-- Fav Icon  -->
-<link rel="shortcut icon" href="images/favicon.png">
+<link rel="shortcut icon" href="images/monart.png">
 <!-- Site Title  -->
-<title>Monart City |The Next Frontier for Modern Construction.</title>
+<title>Monart City | The Next Frontier for Modern Construction.</title>
 <!-- Bundle and Base CSS -->
 <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
 <link rel="stylesheet" href="assets/css/style-azalea.css?ver=1930" id="changeTheme">
 <!-- Extra CSS -->
 <link rel="stylesheet" href="assets/css/theme.css?ver=1930">
 
-
+<style>
+    /* .team p{
+  width: 550px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    } */
+.team {
+    max-width: 350px !important;
+}
+</style>
 
 
 </head>
@@ -32,8 +42,8 @@
 						<!-- Logo @s -->
 						<div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
 							<a href="./" class="logo-link">
-								<img class="logo-dark" src="images/logo-s2-white.png" srcset="images/logo-s2-white2x.png 2x" alt="logo">
-								<img class="logo-light" src="images/logo-s2-white.png" srcset="images/logo-s2-white2x.png 2x" alt="logo">
+								<img class="logo-dark" src="images/monart-logo.png" srcset="images/monart-logo.png 2x" alt="logo">
+								<img class="logo-light" src="images/monart-logo.png" srcset="images/monart-logo.png 2x" alt="logo">
 							</a>
 						</div>
 
@@ -52,7 +62,7 @@
 								<ul class="menu">
 									<li class="menu-item"><a class="menu-link nav-link" href="#header">Home</a></li>
 									<li class="menu-item"><a class="menu-link nav-link" href="#about">About Us</a></li>
-									<li class="menu-item"><a class="menu-link nav-link" href="#about">Vision</a></li>
+									<li class="menu-item"><a class="menu-link nav-link" href="#vision">Vision</a></li>
 									<li class="menu-item"><a class="menu-link nav-link" href="#platform">Technology</a></li>
 									<li class="menu-item"><a class="menu-link nav-link" href="#platform">Projects</a></li>
                                     <li class="menu-item"><a class="menu-link nav-link" href="#team">Team</a></li>
@@ -84,25 +94,34 @@
 
             <div class="banner banner-fs tc-light">
 
-                <div class="nk-block nk-block-header nk-block-sm my-auto">
-                    <div class="container pt-5">
-                        <div class="banner-caption text-center">
-                            <h1 class="title title-xl-2 ttu animated" data-animate="fadeInUp" data-delay="0.7">World First Decentralized Marketplace with blockchain infrastructure</h1>
-                            <div class="row justify-content-center pb-3">
-                                <div class="col-sm-11 col-xl-11 col-xxl-8">
-                                    <p class="lead animated" data-animate="fadeInUp" data-delay="0.8">The first decentralized Marketplace which makes simplifies and standarizes data with blockchain technology. We provides user-friendly, efficient and secure crypto solutions and utilizing blockchain technology. </p>
+                <div class="nk-block nk-block-sm nk-block-header my-auto">
+                    <div class="container container-xxl pt-5">
+                        <div class="row align-items-center justify-content-center justify-content-lg-between gutter-vr-30px">
+                            <div class="col-lg-6 order-lg-last">
+                                <div class="banner-gfx banner-gfx-auto animated" data-animate="fadeInUp" data-delay=".7">
+                                    <img src="images/azalea/gfx-e.png" alt="header">
                                 </div>
-                            </div>
-                            <div class="cpn-action">
-                                <ul class="btn-grp mx-auto">
-                                    <li class="animated" data-animate="fadeInUp" data-delay="0.9"><a href="#" class="btn btn-primary btn-round">PRIVATE SALE</a></li>
-                                    <li class="animated" data-animate="fadeInUp" data-delay="1"><a href="#tokensale" class="menu-link btn btn-round btn-outline btn-primary">TOKEN SALE</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                            </div><!-- .col -->
+                            <div class="col-xl-5 col-lg-6 col-sm-10 text-center text-lg-left">
+                                <div class="banner-caption">
+                                    <h1 class="title title-lg ttu animated" data-animate="fadeInUp" data-delay=".8">Monart City
+                                        The Next Frontier for Modern
+                                        Construction.</h1>
+                                    <p class="lead animated" data-animate="fadeInUp" data-delay=".9">Monart City is an impact oriented project developed by a
+                                        holding company in formation in the State of Wyoming
+                                        under the name MONART INDUSTRIES DAO,LLC that
+                                        owns operating companies carrying out the organizational
+                                        operating process to deliver partnerships ,tools,products
+                                        that positions the project to be successful. </p>
+                                    <div class="cpn-action animated" data-animate="fadeInUp" data-delay="1">
+                                        <!-- <a class="btn btn-primary btn-round" href="#">PRIVATE SALE</a> -->
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
                     </div>
                 </div>
-                <div class="nk-block nk-block-status">
+                <!-- <div class="nk-block nk-block-status">
                     <div class="container container-xxl">
                         <div class="row gutter-vr-40px justify-content-between">
                             <div class="col-xxl-6 col-xl-5 col-lg-5">
@@ -138,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 
                 <div class="nk-block nk-block-actions">
                     <div class="container container-xxl">
@@ -162,11 +181,11 @@
                         </div>
                     </div>
                 </div>
-                
                 <!-- Place Particle Js -->
-		        <div id="particles-bg" class="particles-container is-fixed particles-bg op-20"></div>
+                <div id="particles-bg" class="particles-container is-fixed particles-bg op-20"></div>
+            
             </div>
-			
+            
 		</header>
     
         <main class="nk-pages tc-light">
@@ -185,20 +204,35 @@
                 <div class="container container-xxl">
                     <div class="nk-block">
                         <div class="row justify-content-between align-items-center gutter-vr-40px">
-                           <div class="col-lg-6 order-lg-last">
+                           <div class="col-lg-4 order-lg-last">
                                <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay="0.2">
                                     <img src="images/azalea/gfx-e.png" alt="gfx">
                                 </div>
                            </div>
-                            <div class="col-lg-5">
+                            <div class="col-lg-8">
                                 <div class="nk-block-text">
-                                    <h2 class="title animated" data-animate="fadeInUp" data-delay="0.3">We build fully Decentralized Marketplace that Augment Access to Blockchain Technologies</h2>
-                                    <p class="animated" data-animate="fadeInUp" data-delay="0.4">We have developed a state-of-the-art marketplace where you can securely and reliably buy and sell any items.  The fastest and most flexible asset platform in existence. It will include easy cryptocurrency payments integration, and even a digital arbitration system. </p>
-                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">At the end, Our aims to integrate all companies, employees, and business assets into a unified blockchain ecosystem, which will make business truly efficient, transparent, and reliable.</p>
-                                    <ul class="btn-grp gutter-vr-20px pdt-m">
+                                    <h2 class="title animated" data-animate="fadeInUp" data-delay="0.3">Monart City is an impact oriented project developed by a
+                                        holding company in formation in the State of Wyoming
+                                        under the name MONART INDUSTRIES DAO,LLC. </h2>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.4">It that
+                                        owns operating companies carrying out the organizational
+                                        operating process to deliver partnerships ,tools,products
+                                        that positions the project to be successful.The group
+                                        consists of family offices,corporate bodies,information
+                                        technology companies,investment firms ,real estate
+                                        management organizations as well as
+                                        visionaries,artists,architects,designers,scientists and other
+                                        key industrial role individuals,who are collaborating to
+                                        design and fabricate a framework for planetary
+                                        systems,through innovations in sustainable
+                                        architecture,technology and Infrastructure design.  </p>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">We take
+                                        advantage of the principles of nature’s own patterned
+                                        systems,to develop an ecosystem built on zero emissions.</p>
+                                    <!-- <ul class="btn-grp gutter-vr-20px pdt-m">
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.6"><a href="#docs" class="menu-link btn btn-primary btn-round btn-lg"><span>White Paper</span> <em class="icon ti ti-arrow-down"></em></a></li>
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.7"><a href="#ecosystems" class="menu-link btn btn-underline">See the Ecosystems</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -206,8 +240,57 @@
                 </div>
 
             </section>
+
+             
+            <section class="section" id="vision">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="OUR VISION">VISION</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row justify-content-between align-items-center gutter-vr-40px">
+                           <div class="col-lg-4 ">
+                               <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay="0.2">
+                                    <img src="images/monart/gfx-k.png" alt="gfx">
+                                </div>
+                           </div>
+                            <div class="col-lg-8">
+                                <div class="nk-block-text">
+                                    <h5 class="animated" data-animate="fadeInUp" data-delay="0.3">Monart City plans to have its foundations created on efficient energy production ,Data curation and open science
+                                        research ,creating a smooth transition for the development of the Mega City therefore in the first phases of
+                                        development we plan to build a distributed energy pipeline of renewable energy power plants equipped with
+                                        efficient mini grids collectively capable of generating nominal power output of about 150MW a year .Whiles in the
+                                        process setting up light industrial facilities equipped with efficient technology that can harness the power produced
+                                        and put it into productive use. </h5>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.4">We believe that building an interdependent integrated system between the entire
+                                        development’s core infrastructures which is Real Estate,Distributed Energy and P2P Data Communication systems
+                                        for research,innovation and inventory will set the project on a successful path.And in regards to future development
+                                        of Monart City and other areas of applications where this new research findings can deployed,data from the our
+                                        initial phases of development is detrimental in the emergence of a fully autonomous,decentralized Monart City.  </p>
+                                    <!-- <p class="animated" data-animate="fadeInUp" data-delay="0.5">We take
+                                        advantage of the principles of nature’s own patterned
+                                        systems,to develop an ecosystem built on zero emissions.</p> -->
+                                    <!-- <ul class="btn-grp gutter-vr-20px pdt-m">
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.6"><a href="#docs" class="menu-link btn btn-primary btn-round btn-lg"><span>White Paper</span> <em class="icon ti ti-arrow-down"></em></a></li>
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.7"><a href="#ecosystems" class="menu-link btn btn-underline">See the Ecosystems</a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
             <!-- // -->
-            <section class="section" id="ecosystems">
+            <!-- <section class="section" id="ecosystems">
 
                 <div class="container">
                     <div class="row justify-content-center text-center">
@@ -260,134 +343,13 @@
                     </div>
                 </div>
 
-            </section>
+            </section> -->
             <!-- // -->
-            <section class="section" id="platform">
+            
 
-                <div class="container">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-6">
-                            <div class="section-head section-head-s2">
-                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="ICOX Products">PLATFORM</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container container-xxl">
-                    <div class="nk-block">
-                        <div class="row justify-content-center">
-                            <div class="col-xl-6 col-lg-8">
-                                <ul class="nav tab-nav tab-nav-btn-bdr-s2 justify-content-center justify-content-sm-between pb-4 pb-sm-5 animated" data-animate="fadeInUp" data-delay="0.1">
-                                    <li><a class="active" data-toggle="tab" href="#tab-1-1">FOR Participators</a></li>
-                                    <li class="tab-nav-sap d-none d-sm-block"></li>
-                                    <li><a data-toggle="tab" href="#tab-1-2">For Traders</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="tab-content">
-                            <div class="tab-pane fade show active" id="tab-1-1">
-                                <div class="row align-items-center justify-content-between gutter-vr-40px">
-                                    <div class="col-lg-6 order-lg-last">
-                                        <div class="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
-                                            <div class="nk-circle-animation nk-df-center fast"></div><!-- .circle-animation -->
-                                            <img class="shadow rounded" src="images/app-screens/sc-medium-a.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5">
-                                        <div class="nk-block-text mgb-m30">
-                                            <h2 class="title title-md animated" data-animate="fadeInUp" data-delay="0.2">A Open Platform for our Participators</h2>
-                                            <p class="animated" data-animate="fadeInUp" data-delay="0.2">Each participator can choose the trader and to sign a contract.</p>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.3">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-bulb"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.4">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-paricle"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>Our multi-cryptocurrency exchange will uis aute irure dolor in reprehenderit in voluptate velit uuntur magni dolores esse cillum.</p>
-                                                </div>
-                                            </div>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.5">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-bulb-2"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>Users will be able to take quis nostrum exercitationem ullam corporis susci pitlabo riosam, nisi ut aliquid ex ea commodie.</p>
-                                                </div>
-                                            </div>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.6">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-document-2"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>Sign a smart-contract to allow our trader’s access for live trading corporis cryptocurrency susci pitlabo riosam, nisi ut.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="tab-1-2">
-                                <div class="row align-items-center justify-content-between gutter-vr-40px">
-                                    <div class="col-lg-6 order-lg-last">
-                                        <div class="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
-                                            <div class="nk-circle-animation nk-df-center fast"></div><!-- .circle-animation -->
-                                            <img class="shadow rounded" src="images/app-screens/sc-medium-a.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5">
-                                        <div class="nk-block-text mgb-m30">
-                                            <h2 class="title title-md animated" data-animate="fadeInUp" data-delay="0.2">A Open Platform for our Participators</h2>
-                                            <p class="animated" data-animate="fadeInUp" data-delay="0.2">Each participator can choose the trader and to sign a contract.</p>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.3">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-bulb"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                </div>
-                                            </div>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.4">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-paricle"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>Our multi-cryptocurrency exchange will uis aute irure dolor in reprehenderit in voluptate velit uuntur magni dolores esse cillum.</p>
-                                                </div>
-                                            </div>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.5">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-bulb-2"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>Users will be able to take quis nostrum exercitationem ullam corporis susci pitlabo riosam, nisi ut aliquid ex ea commodie.</p>
-                                                </div>
-                                            </div>
-                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.6">
-                                                <div class="feature-icon feature-icon-md">
-                                                    <em class="icon icon-md icon-grd ikon ikon-document-2"></em>
-                                                </div>
-                                                <div class="feature-text">
-                                                    <p>Sign a smart-contract to allow our trader’s access for live trading corporis cryptocurrency susci pitlabo riosam, nisi ut.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- .container -->
 
-            </section>
             <!-- // -->
-            <section class="section" id="mvp">
+            <!-- <section class="section" id="mvp">
 
                 <div class="container">
                     <div class="row justify-content-center text-center">
@@ -462,9 +424,9 @@
                     </div>
                 </div>
                 
-            </section>
+            </section> -->
             <!-- // -->
-            <section class="section" id="tokensale">
+            <!-- <section class="section" id="tokensale">
 
                 <div class="container">
                     <div class="row justify-content-center text-center">
@@ -564,9 +526,9 @@
                     </div>
                 </div>
 
-            </section>
+            </section> -->
             <!-- // -->
-            <section class="section" id="roadmap">
+            <!-- <section class="section" id="roadmap">
 
                 <div class="container">
                     <div class="row justify-content-center text-center">
@@ -630,7 +592,8 @@
                     </div>
                 </div>
 
-            </section>
+            </section> -->
+         
             <!-- // -->
             <section class="section" id="team">
 
@@ -638,315 +601,8 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-lg-6">
                             <div class="section-head section-head-s2">
-                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Core Team">OUR TEAM</h2>
-                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">With help from our teams, contributors and investors these are the milestones we are looking forward to achieve.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container container-xxl">
-                    <div class="nk-block">
-                        <div class="has-carousel carousel-nav-center" data-items="4" data-navs="true">
-                            <div class="item animated" data-animate="fadeInUp" data-delay="0.3">
-                                <div class="team team-s2 team-odd">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-a.jpg" alt="">
-                                        <a href="#team-popup-1" class="team-show content-popup"></a>
-                                    </div>
-                                    <h5 class="team-name title title-md">Louis Baker</h5>
-                                    <span class="team-position">CEO &amp; Lead Blockchain</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                                <!-- Start .team-profile  -->
-                                <div id="team-popup-1" class="team-popup bg-theme-dark tc-light mfp-hide">
-                                    <a title="Close" class="mfp-close">×</a>
-                                    <div class="row align-items-start">
-                                        <div class="col-md-6">
-                                            <div class="team-photo">
-                                                <img src="images/azalea/team-a.jpg" alt="team">
-                                            </div>
-                                        </div><!-- .col  -->
-                                        <div class="col-md-6">
-                                            <div class="team-popup-info pl-md-3">
-                                                <h3 class="team-name title title-lg pt-4">Louis Baker</h3>
-                                                <p class="team-position">CEO &amp; Lead Blockchain</p>
-                                                <ul class="team-social team-social-s2 mb-4">
-                                                    <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                                    <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                                </ul>
-                                                <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                                                <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                                                <div class="progress-list">
-                                                    <div class="progress-wrap">
-                                                        <div class="progress-title">Blockchain <span class="progress-amount">85%</span></div>
-                                                        <div class="progress-bar progress-bar-xs bg-black-10">
-                                                            <div class="progress-percent bg-primary" data-percent="85"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="progress-wrap">
-                                                        <div class="progress-title">Decentralization <span class="progress-amount">68%</span></div>
-                                                        <div class="progress-bar progress-bar-xs bg-black-10">
-                                                            <div class="progress-percent bg-primary" data-percent="68"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div><!-- .col  -->
-                                    </div><!-- .row  -->
-                                </div><!-- .team-profile  -->
-                            </div>
-                            <div class="item animated" data-animate="fadeInUp" data-delay="0.4">
-                                <div class="team team-s2 team-even">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-b.jpg" alt="">
-                                        <a href="#team-popup-2" class="team-show content-popup"></a>
-                                    </div>
-                                    <h5 class="team-name title title-md">Stefan Harary</h5>
-                                    <span class="team-position">CTO &amp; Senior Developer</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                                
-                                <!-- Start .team-profile  -->
-                                <div id="team-popup-2" class="team-popup bg-theme-dark tc-light mfp-hide">
-                                    <a title="Close" class="mfp-close">×</a>
-                                    <div class="row align-items-start">
-                                        <div class="col-md-6">
-                                            <div class="team-photo">
-                                                <img src="images/azalea/team-b.jpg" alt="team">
-                                            </div>
-                                        </div><!-- .col  -->
-                                        <div class="col-md-6">
-                                            <div class="team-popup-info pl-md-3">
-                                                <h3 class="team-name title title-lg pt-4">Stefan Harary</h3>
-                                                <p class="team-position">CTO &amp; Senior Developer</p>
-                                                <ul class="team-social team-social-s2 mb-4">
-                                                    <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                                    <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                                </ul>
-                                                <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                                                <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                                            </div>
-                                        </div><!-- .col  -->
-                                    </div><!-- .row  -->
-                                </div><!-- .team-profile  -->
-                            </div>
-                            <div class="item animated" data-animate="fadeInUp" data-delay="0.5">
-                                <div class="team team-s2 team-odd">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-c.jpg" alt="">
-                                        <a href="#team-popup-3" class="team-show content-popup"></a>
-                                    </div>
-                                    <h5 class="team-name title title-md">Moises Teare</h5>
-                                    <span class="team-position">Blockchain App Developer</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                                
-                                <!-- Start .team-profile  -->
-                                <div id="team-popup-3" class="team-popup bg-theme-dark tc-light mfp-hide">
-                                    <a title="Close" class="mfp-close">×</a>
-                                    <div class="row align-items-start">
-                                        <div class="col-md-6">
-                                            <div class="team-photo">
-                                                <img src="images/azalea/team-c.jpg" alt="team">
-                                            </div>
-                                        </div><!-- .col  -->
-                                        <div class="col-md-6">
-                                            <div class="team-popup-info pl-md-3">
-                                                <h3 class="team-name title title-lg pt-4">Moises Teare</h3>
-                                                <p class="team-position">Blockchain App Developer</p>
-                                                <ul class="team-social team-social-s2 mb-4">
-                                                    <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                                    <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                                </ul>
-                                                <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                                                <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                                            </div>
-                                        </div><!-- .col  -->
-                                    </div><!-- .row  -->
-                                </div><!-- .team-profile  -->
-                            </div>
-                            <div class="item animated" data-animate="fadeInUp" data-delay="0.6">
-                                <div class="team team-s2 team-even">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-d.jpg" alt="">
-                                        <a href="#team-popup-4" class="team-show content-popup"></a>
-                                    </div>
-                                    <h5 class="team-name title title-md">Louis Baker</h5>
-                                    <span class="team-position">CEO &amp; Lead Blockchain</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                                
-                                <!-- Start .team-profile  -->
-                                <div id="team-popup-4" class="team-popup bg-theme-dark tc-light mfp-hide">
-                                    <a title="Close" class="mfp-close">×</a>
-                                    <div class="row align-items-start">
-                                        <div class="col-md-6">
-                                            <div class="team-photo">
-                                                <img src="images/azalea/team-d.jpg" alt="team">
-                                            </div>
-                                        </div><!-- .col  -->
-                                        <div class="col-md-6">
-                                            <div class="team-popup-info pl-md-3">
-                                                <h3 class="team-name title title-lg pt-4">Louis Baker</h3>
-                                                <p class="team-position">CEO &amp; Lead Blockchain </p>
-                                                <ul class="team-social team-social-s2 mb-4">
-                                                    <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                                    <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                                </ul>
-                                                <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                                                <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                                            </div>
-                                        </div><!-- .col  -->
-                                    </div><!-- .row  -->
-                                </div><!-- .team-profile  -->
-                            </div>
-                            <div class="item animated" data-animate="fadeInUp" data-delay="0.7">
-                                <div class="team team-s2 team-odd">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-a.jpg" alt="">
-                                        <a href="#team-popup-5" class="team-show content-popup"></a>
-                                    </div>
-                                    <h5 class="team-name title title-md">Louis Baker</h5>
-                                    <span class="team-position">CEO &amp; Lead Blockchain</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                                
-                                <!-- Start .team-profile  -->
-                                <div id="team-popup-5" class="team-popup bg-theme-dark tc-light mfp-hide">
-                                    <a title="Close" class="mfp-close">×</a>
-                                    <div class="row align-items-start">
-                                        <div class="col-md-6">
-                                            <div class="team-photo">
-                                                <img src="images/azalea/team-a.jpg" alt="team">
-                                            </div>
-                                        </div><!-- .col  -->
-                                        <div class="col-md-6">
-                                            <div class="team-popup-info pl-md-3">
-                                                <h3 class="team-name title title-lg pt-4">Louis Baker</h3>
-                                                <p class="team-position">CEO &amp; Lead Blockchain </p>
-                                                <ul class="team-social team-social-s2 mb-4">
-                                                    <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                                    <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                                </ul>
-                                                <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                                                <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                                            </div>
-                                        </div><!-- .col  -->
-                                    </div><!-- .row  -->
-                                </div><!-- .team-profile  -->
-                            </div>
-                            <div class="item animated" data-animate="fadeInUp" data-delay="0.8">
-                                <div class="team team-s2 team-even">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-b.jpg" alt="">
-                                        <a href="#team-popup-6" class="team-show content-popup"></a>
-                                    </div>
-                                    <h5 class="team-name title title-md">Stefan Harary</h5>
-                                    <span class="team-position">CTO &amp; Senior Developer</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                                
-                                <!-- Start .team-profile  -->
-                                <div id="team-popup-6" class="team-popup bg-theme-dark tc-light mfp-hide">
-                                    <a title="Close" class="mfp-close">×</a>
-                                    <div class="row align-items-start">
-                                        <div class="col-md-6">
-                                            <div class="team-photo">
-                                                <img src="images/azalea/team-b.jpg" alt="team">
-                                            </div>
-                                        </div><!-- .col  -->
-                                        <div class="col-md-6">
-                                            <div class="team-popup-info pl-md-3">
-                                                <h3 class="team-name title title-lg pt-4">Stefan Harary</h3>
-                                                <p class="team-position">CTO &amp; Senior Developer</p>
-                                                <ul class="team-social team-social-s2 mb-4">
-                                                    <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                                    <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                                </ul>
-                                                <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                                                <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                                            </div>
-                                        </div><!-- .col  -->
-                                    </div><!-- .row  -->
-                                </div><!-- .team-profile  -->
-                            </div>
-                            <div class="item animated" data-animate="fadeInUp" data-delay="0.9">
-                                <div class="team team-s2 team-odd">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-c.jpg" alt="">
-                                        <a href="#team-popup-7" class="team-show content-popup"></a>
-                                    </div>
-                                    <h5 class="team-name title title-md">Moises Teare</h5>
-                                    <span class="team-position">Blockchain App Developer</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                                
-                                <!-- Start .team-profile  -->
-                                <div id="team-popup-7" class="team-popup bg-theme-dark tc-light mfp-hide">
-                                    <a title="Close" class="mfp-close">×</a>
-                                    <div class="row align-items-start">
-                                        <div class="col-md-6">
-                                            <div class="team-photo">
-                                                <img src="images/azalea/team-c.jpg" alt="team">
-                                            </div>
-                                        </div><!-- .col  -->
-                                        <div class="col-md-6">
-                                            <div class="team-popup-info pl-md-3">
-                                                <h3 class="team-name title title-lg pt-4">Moises Teare</h3>
-                                                <p class="team-position">Blockchain App Developer</p>
-                                                <ul class="team-social team-social-s2 mb-4">
-                                                    <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                                    <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                                </ul>
-                                                <p>He is a great man to work Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Simi lique, autem. </p>
-                                                <p>Tenetur quos facere magnam volupt ates quas esse Sedrep ell endus mole stiae tates quas esse Sed repell endus molesti aela uda ntium quis quam iusto minima thanks.</p>
-                                            </div>
-                                        </div><!-- .col  -->
-                                    </div><!-- .row  -->
-                                </div><!-- .team-profile  -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-            <!-- // -->
-            <section class="section">
-
-                <div class="container">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-6">
-                            <div class="section-head section-head-s2">
-                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Advisors">BOARD MEMBER</h2>
-                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">Our advisors and board members are great part of our team.</p>
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Team">Our Team</h2>
+                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">With help from our teams and advisors these are the milestones we are looking forward to achieve.</p>
                             </div>
                         </div>
                     </div>
@@ -954,547 +610,210 @@
                 <div class="container container-xxl">
                     <div class="nk-block nk-block-sm">
                         <div class="row">
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.3">
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team team-odd animated" data-animate="fadeInUp" data-delay="0.3">
                                     <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-c.jpg" alt="">
+                                        <img src="images/monart/derick.png" alt="">
                                     </div>
-                                    <h5 class="team-name title title-sm">Ron Glabischnig</h5>
-                                    <span class="team-position team-position-sm">General manager, Coindexin</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
+                                    <h5 class="team-name title title-sm">Derick Bedzra</h5>
+                                    <span class="team-position team-position-sm">Founder & President</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">At the end, Our aims to integrate all companies, employees, and business assets into a unified blockchain ecosystem, which will make business truly efficient, transparent, and reliable.</p>
+                                  
                                 </div>
                             </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-even animated" data-animate="fadeInUp" data-delay="0.35">
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team team-odd animated" data-animate="fadeInUp" data-delay="0.35">
                                     <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-b.jpg" alt="">
+                                        <img src="images/monart/Neltah.png" alt="">
                                     </div>
-                                    <h5 class="team-name title title-sm">Stefan Zakrisson</h5>
-                                    <span class="team-position team-position-sm">Legal Advisor, TokenWiz Project</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
+                                    <h5 class="team-name title title-sm">Neltah Mosimanegape</h5>
+                                    <span class="team-position team-position-sm">Director of Organization Development</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Neltah Mosimanegape is the Founder of Tempest Gold, a
+                                        Botswana award-winning real estate company with interests
+                                        in sub-Saharan Africa.
+                                        Her business and leadership acumen have gained her
+                                        recognition internationally, especially in real estate's digital
+                                        and innovation sector. Tempest Gold's listing app had been
+                                        selected as one of Demo Africa's 2018 Top 30 start-ups.
+                                        Her plans are to venture into other industries such as
+                                        academia, solar energy and agritech
+                                        She is currently conducting a gender-related doctoral thesis
+                                        in Real Estate. She is also a strong advocate for women's
+                                        participation and involvement in industry affairs vital for
+                                        young women needing assistance and mentorship in their
+                                        career journeys.</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.4">
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team team-odd animated" data-animate="fadeInUp" data-delay="0.4">
                                     <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-a.jpg" alt="">
+                                        <img src="images/monart/Andrew.png" alt="">
                                     </div>
-                                    <h5 class="team-name title title-sm">Moises Teare</h5>
-                                    <span class="team-position team-position-sm">Managing Director, ICOCrypto</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
+                                    <h5 class="team-name title title-sm">Andrew Modigah</h5>
+                                    <span class="team-position team-position-sm">Managing Partner-Botswana</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Andrew is a committed and dedicated individual who has
+                                        experience with managing large scale Real Estate
+                                        developments through foundational stages to when
+                                        construction starts to finish,his experience within the real
+                                        estate market in Botswana is really needed especially in the
+                                        Ghanzi District where the project is being developed,this will
+                                        create a mutual relation to getting the development to scale
+                                        when there are requirements by the government to have at
+                                        least one citizen of the country on the board or be a
+                                        stakeholder in the development.Beijg a core team member he
+                                        is also providing the project with capital resources that help
+                                        ease the development process of the project through pilot
+                                        stage to when the City construction starts.</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-even animated" data-animate="fadeInUp" data-delay="0.45">
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team  team-odd animated" data-animate="fadeInUp" data-delay="0.45">
                                     <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-d.jpg" alt="">
+                                        <img src="images/monart/Kofi.png" alt="">
                                     </div>
-                                    <h5 class="team-name title title-sm">Michiel Berende</h5>
-                                    <span class="team-position team-position-sm">Insurance Lead &amp; Financial Advisor</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
+                                    <h5 class="team-name title title-sm">Kofi Obuobi</h5>
+                                    <span class="team-position team-position-sm">Head of Product Design &amp; Fabrication</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Andrew is a committed and dedicated individual who has
+                                        experience with managing large scale Real Estate
+                                        developments through foundational stages to when
+                                        construction starts to finish,his experience within the real
+                                        estate market in Botswana is really needed especially in the
+                                        Ghanzi District where the project is being developed,this will
+                                        create a mutual relation to getting the development to scale
+                                        when there are requirements by the government to have at
+                                        least one citizen of the country on the board or be a
+                                        stakeholder in the development.Beijg a core team member he
+                                        is also providing the project with capital resources that help
+                                        ease the development process of the project through pilot
+                                        stage to when the City construction starts.</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.5">
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team  team-odd animated" data-animate="fadeInUp" data-delay="0.5">
                                     <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-b.jpg" alt="">
+                                        <img src="images/monart/Judah.png" alt="">
                                     </div>
-                                    <h5 class="team-name title title-sm">Noack Waylon</h5>
-                                    <span class="team-position team-position-sm">Ecosystem Manager &amp; DevOps Engineer</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
+                                    <h5 class="team-name title title-sm">Judah Anu El</h5>
+                                    <span class="team-position team-position-sm">Director of Security</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Judah is a highly motivated passionate individual who is
+                                            skilled in the protection industry. Working with a variety of
+                                            law enforcement and military personnel has diversified his
+                                            professional experience. Judah founded a tactical firearm
+                                            business which certifies firearms instructors and teaches
+                                            civilians concealed carry, home defense, and defensive
+                                            shooting. He is a Certified USCCA firearms instructor and
+                                            training counselor for all of the 50 states. Judah specializes
+                                            in advance training, executive protection, and asset
+                                            management. His attention to detail and communication skills
+                                            will be an asset insuring all locations and perimeters are
+                                            secure. Understanding situational awareness and his skills to
+                                            inspire confidence will be key to the tactical teams success. In
+                                            addition to his training others Judah is always a student,
+                                            continuing to enhance and grow his own knowledge from
+                                            trusted leaders in the firearms community.</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-even animated" data-animate="fadeInUp" data-delay="0.55">
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team team-odd animated" data-animate="fadeInUp" data-delay="0.55">
                                     <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/team-c.jpg" alt="">
+                                        <img src="images/monart/Ferial.png" alt="">
                                     </div>
-                                    <h5 class="team-name title title-sm">Tobias Dalton</h5>
-                                    <span class="team-position team-position-sm">Member of the Oparation Board</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
+                                    <h5 class="team-name title title-sm">Ferial Puren</h5>
+                                    <span class="team-position team-position-sm">Advisor</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Ferial is an Imagineer. She spent most of her career working
+                                        in the personal development space but, in order to explore
+                                        this aspiration of sustainable happy, She began to focus her
+                                        work on the area of whole system change because the systems
+                                        we have created support all that we experience as life.She is
+                                        an amazing founder working to provide businesses with
+                                        impactful services she has an online digital marketing
+                                        company, also an eco business incubator, ECOBI, that helps
+                                        bring disruptive, green eco technologies successfully to the
+                                        market and a disruptive online TV Network, Ignite TV that
+                                        facilitates the voice of change-makers,Ignite Life, a platform
+                                        that provides opportunities for synergistic engagement among
+                                        evolutionary leaders to explore ideas, perspectives and
+                                        modalities that support an evolutionary worldview, pushing
+                                        the edge of our collective thinking, knowing, and evolution.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team team-odd animated" data-animate="fadeInUp" data-delay="0.55">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="images/monart/Liam.png" alt="">
+                                    </div>
+                                    <h5 class="team-name title title-sm">Liam Hodges</h5>
+                                    <span class="team-position team-position-sm">Advisor</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Liam is a motivated and skilled individual cultivated with the
+                                        spirit of fearlessness,he has over 15 years experience in
+                                        business development and managing of sales both locally and
+                                        internationally to respective markets projects are dominated
+                                        in.His extensive knowledge In financial services,property
+                                        development and investment makes him a good fit to help
+                                        build this project,On top his presence in the company will
+                                        give room for oir younger team to look to a mentor for advice
+                                        and help identifying steppingstones.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team team-odd animated" data-animate="fadeInUp" data-delay="0.55">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="images/monart/James.png" alt="">
+                                    </div>
+                                    <h5 class="team-name title title-sm">James Gien Wong</h5>
+                                    <span class="team-position team-position-sm">Advisor</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Neltah Mosimanegape is the Founder of Tempest Gold, a
+                                        Botswana award-winning real estate company with interests
+                                        in sub-Saharan Africa.
+                                        Her business and leadership acumen have gained her
+                                        recognition internationally, especially in real estate's digital
+                                        and innovation sector. Tempest Gold's listing app had been
+                                        selected as one of Demo Africa's 2018 Top 30 start-ups.
+                                        Her plans are toventure into other industries such as
+                                        academia, solar energy and agritech
+                                        She is currently conducting a gender-related doctoral thesis
+                                        in Real Estate. She is also a strong advocate for women's
+                                        participation and involvement in industry affairs vital for
+                                        young women needing assistance and mentorship in their
+                                        career journeys```````.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-6">
+                                <div class="team team-odd animated" data-animate="fadeInUp" data-delay="0.55">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="images/monart/Mark.png" alt="">
+                                    </div>
+                                    <h5 class="team-name title title-sm">Mark Mckee</h5>
+                                    <span class="team-position team-position-sm">Advisor</span>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">Deri .Mark McKee is a Consultant Partner to the Firm and a
+                                        highly experienced, technical and commercially minded,
+                                        banking and finance lawyer with a track record of success
+                                        and a broad range of skills, gained in a range of legal
+                                        advisory, partnership and senior management roles.
+                                        Mark has 25 years’ experience dealing with Asset Based
+                                        Lending, Structured Finance, Project Financing, Capital
+                                        Markets, Finance leases, Consumer Law, Company Law,
+                                        Joint Ventures, Energy and Mining, Public Private
+                                        Partnerships and associated regulatory matters including not
+                                        limited to regulation of the banking & finance, energy,
+                                        telecommunications and tourism sectors.
+                                        Extensive project leadership coupled with highly developed
+                                        dispute resolution, mediation and negotiation skills make
+                                        Mark a real asset in the running of projects and transactional
+                                        negotiations.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Block @s -->
-                    <div class="nk-block block-partners">
-                        <h6 class="title title-md ttu text-center animated" data-animate="fadeInUp" data-delay="0.65">Our Partners</h6>
-                        <ul class="has-carousel partner-list justify-content-center animated" data-items="7" data-items-mobile="2" data-auto="true" data-loop="true" data-animate="fadeInUp" data-delay="0.75">
-                            <li class="partner-logo"><img src="images/partners/a-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/b-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/c-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/d-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/e-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/f-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/g-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/a-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/b-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/c-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/d-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/e-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/f-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/g-light.png" alt=""></li>
-                        </ul>
-                    </div>
-                    <!-- Block @e -->
+                  
                 </div>
 
             </section>
             <!-- // -->
-            <section class="section" id="docs">
-
-                <div class="container">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-6">
-                            <div class="section-head section-head-s2">
-                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Downloads">DOCUMENTS</h2>
-                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">Download the whitepaper and learn about ICO Token, the unique ICO Crypto approach and the team/advisors.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container container-xxl">
-                    <div class="nk-block">
-                        <div class="row gutter-vr-50px">
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.3">
-                                    <div class="doc-photo doc-shape doc-shape-a">
-                                        <img src="images/azalea/doc-a.jpg" alt="">
-                                    </div>
-                                    <div class="doc-text">
-                                        <h5 class="doc-title title-sm">White Paper <small>(2019)</small></h5>
-                                        <a class="doc-download" href="#"><em class="ti ti-import"></em></a>
-                                        <div class="doc-lang">ENGLISH</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.4">
-                                    <div class="doc-photo doc-shape doc-shape-b">
-                                        <img src="images/azalea/doc-b.jpg" alt="">
-                                    </div>
-                                    <div class="doc-text">
-                                        <h5 class="doc-title title-sm">Two Pager <small>(2018)</small></h5>
-                                        <a class="doc-download" href="#"><em class="ti ti-import"></em></a>
-                                        <div class="doc-lang">ENGLISH</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.5">
-                                    <div class="doc-photo doc-shape doc-shape-c">
-                                        <img src="images/azalea/doc-c.jpg" alt="">
-                                    </div>
-                                    <div class="doc-text">
-                                        <h5 class="doc-title title-sm">One Pager <small>(2018)</small></h5>
-                                        <a class="doc-download" href="#"><em class="ti ti-import"></em></a>
-                                        <div class="doc-lang">ENGLISH</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.6">
-                                    <div class="doc-photo doc-shape doc-shape-d">
-                                        <img src="images/azalea/doc-d.jpg" alt="">
-                                    </div>
-                                    <div class="doc-text">
-                                        <h5 class="doc-title title-sm">Presentation <small>(2018)</small></h5>
-                                        <a class="doc-download" href="#"><em class="ti ti-import"></em></a>
-                                        <div class="doc-lang">ENGLISH</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-            <!-- // -->
-            <section class="section">
-
-                <div class="container container-xxl">
-                    <div class="nk-block">
-                        <div class="row justify-content-between gutter-vr-80px">
-                            <div class="col-lg-6">
-                                <div class="section-head section-head-s2 text-center ">
-                                    <h2 class="title animated" data-animate="fadeInUp" data-delay="0.1" title="Press">IN PRESS</h2>
-                                </div>
-                                <div class="nk-block">
-                                    <div class="has-carousel carousel-nav-center pdb-l" data-items="1" data-navs="true">
-                                        <div class="item pb-3">
-                                            <div class="row justify-content-center gutter-vr-30px">
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.2">
-                                                        <img src="images/partners/a-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.25">
-                                                        <img src="images/partners/b-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.3">
-                                                        <img src="images/partners/c-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.35">
-                                                        <img src="images/partners/d-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.4">
-                                                        <img src="images/partners/e-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.45">
-                                                        <img src="images/partners/f-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.5">
-                                                        <img src="images/partners/a-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.55">
-                                                        <img src="images/partners/b-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.6">
-                                                        <img src="images/partners/c-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item pb-3">
-                                            <div class="row justify-content-center gutter-vr-30px">
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.2">
-                                                        <img src="images/partners/a-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.25">
-                                                        <img src="images/partners/b-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.3">
-                                                        <img src="images/partners/c-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.35">
-                                                        <img src="images/partners/d-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.4">
-                                                        <img src="images/partners/e-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.45">
-                                                        <img src="images/partners/f-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.5">
-                                                        <img src="images/partners/a-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.55">
-                                                        <img src="images/partners/b-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="partner-logo animated" data-animate="fadeInUp" data-delay="0.6">
-                                                        <img src="images/partners/c-light.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                            <div class="col-lg-5">
-                                <div class="section-head section-head-s2 text-center">
-                                    <h2 class="title animated" data-animate="fadeInUp" data-delay="0.7" title="Update">NEWS</h2>
-                                </div>
-                                <div class="nk-block">
-                                    <div class="has-carousel carousel-nav-center" data-items="1" data-navs="true">
-                                        <div class="item pb-2">
-                                            <div class="blog blog-s2 animated" data-animate="fadeInUp" data-delay="0.8">
-                                                <div class="blog-content blog-content-inline">
-                                                    <div class="blog-text">
-                                                        <h5 class="blog-title title-sm">Fintech G20 Global Summit  2019</h5>
-                                                        <div class="blog-location">New Youk, United State</div>
-                                                    </div>
-                                                    <div class="blog-action">
-                                                        <a href="#" class="link"><span> Learn More</span> <em class="link-icon link-icon-sm fas fa-angle-right"></em></a>
-                                                    </div>
-                                                </div>
-                                                <div class="bg-image round" data-overlay="theme-dark" data-opacity="85">
-                                                    <img src="images/azalea/news-hr-a.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="blog blog-s2 animated" data-animate="fadeInUp" data-delay="0.85">
-                                                <div class="blog-content blog-content-inline">
-                                                    <div class="blog-text">
-                                                        <h5 class="blog-title title-sm">Blockchain Global Summit 2019</h5>
-                                                        <div class="blog-location">California, United State</div>
-                                                    </div>
-                                                    <div class="blog-action">
-                                                        <a href="#" class="link"><span> Learn More</span> <em class="link-icon link-icon-sm fas fa-angle-right"></em></a>
-                                                    </div>
-                                                </div>
-                                                <div class="bg-image round" data-overlay="theme-dark" data-opacity="85">
-                                                    <img src="images/azalea/news-hr-b.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item pb-2">
-                                            <div class="blog blog-s2 animated" data-animate="fadeInUp" data-delay="0.8">
-                                                <div class="blog-content blog-content-inline">
-                                                    <div class="blog-text">
-                                                        <h5 class="blog-title title-sm">Fintech G20 Global Summit  2019</h5>
-                                                        <div class="blog-location">New Youk, United State</div>
-                                                    </div>
-                                                    <div class="blog-action">
-                                                        <a href="#" class="link"><span> Learn More</span> <em class="link-icon link-icon-sm fas fa-angle-right"></em></a>
-                                                    </div>
-                                                </div>
-                                                <div class="bg-image round" data-overlay="theme-dark" data-opacity="85">
-                                                    <img src="images/azalea/news-hr-a.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="blog blog-s2 animated" data-animate="fadeInUp" data-delay="0.85">
-                                                <div class="blog-content blog-content-inline">
-                                                    <div class="blog-text">
-                                                        <h5 class="blog-title title-sm">Blockchain Global Summit 2019</h5>
-                                                        <div class="blog-location">California, United State</div>
-                                                    </div>
-                                                    <div class="blog-action">
-                                                        <a href="#" class="link"><span> Learn More</span> <em class="link-icon link-icon-sm fas fa-angle-right"></em></a>
-                                                    </div>
-                                                </div>
-                                                <div class="bg-image round" data-overlay="theme-dark" data-opacity="85">
-                                                    <img src="images/azalea/news-hr-b.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .nk-block -->
-                </div><!-- .container -->
-
-            </section>
-            <!-- // -->
-            <section class="section" id="faqs">
-
-                <div class="container">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-6">
-                            <div class="section-head section-head-s2">
-                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="FAQS">FAQS</h2>
-                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others. If you have any other questions, please get in touch.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Block @s -->
-                    <div class="nk-block">
-                        <div class="row justify-content-center">
-                            <div class="col-xl-10">
-                                <ul class="nav tab-nav tab-nav-btn tab-nav-btn-bdr tab-nav-center pdb-r animated" data-animate="fadeInUp" data-delay="0.3">
-                                    <li><a class="active" data-toggle="tab" href="#tab-2-1">General Questions</a></li>
-                                    <li><a data-toggle="tab" href="#tab-2-2">ICO Questions</a></li>
-                                    <li><a data-toggle="tab" href="#tab-2-3">Tokens Sales</a></li>
-                                    <li><a data-toggle="tab" href="#tab-2-4">Investors</a></li>
-                                </ul>
-                                <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="tab-2-1">
-                                        <div class="accordion" id="acc-1">
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.4">
-                                                <h5 class="accordion-title accordion-title-sm" data-toggle="collapse" data-target="#acc-1-1">What is ICO Crypto? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-1-1" class="collapse show" data-parent="#acc-1">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.5">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-1-2">What cryptocurrencies can I use to purchase? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-1-2" class="collapse" data-parent="#acc-1">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.6">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-1-3">How can I participate in the ICO Token sale? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-1-3" class="collapse" data-parent="#acc-1">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.7">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-1-4">How do I benefit from the ICO Token? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-1-4" class="collapse" data-parent="#acc-1">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="tab-2-2">
-                                        <div class="accordion" id="acc-2">
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.4">
-                                                <h5 class="accordion-title accordion-title-sm" data-toggle="collapse" data-target="#acc-2-1">What is ICO Crypto? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-2-1" class="collapse show" data-parent="#acc-2">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.5">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-2-2">What cryptocurrencies can I use to purchase? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-2-2" class="collapse" data-parent="#acc-2">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.6">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-2-3">How can I participate in the ICO Token sale? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-2-3" class="collapse" data-parent="#acc-2">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.7">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-2-4">How do I benefit from the ICO Token? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-2-4" class="collapse" data-parent="#acc-2">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="tab-2-3">
-                                        <div class="accordion" id="acc-3">
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.4">
-                                                <h5 class="accordion-title accordion-title-sm" data-toggle="collapse" data-target="#acc-3-1">What is ICO Crypto? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-3-1" class="collapse show" data-parent="#acc-3">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.5">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-3-2">What cryptocurrencies can I use to purchase? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-3-2" class="collapse" data-parent="#acc-3">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.6">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-3-3">How can I participate in the ICO Token sale? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-3-3" class="collapse" data-parent="#acc-3">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.7">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-3-4">How do I benefit from the ICO Token? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-3-4" class="collapse" data-parent="#acc-3">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="tab-2-4">
-                                        <div class="accordion" id="acc-4">
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.4">
-                                                <h5 class="accordion-title accordion-title-sm" data-toggle="collapse" data-target="#acc-4-1">What is ICO Crypto? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-4-1" class="collapse show" data-parent="#acc-4">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.5">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-4-2">What cryptocurrencies can I use to purchase? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-4-2" class="collapse" data-parent="#acc-4">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.6">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-4-3">How can I participate in the ICO Token sale? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-4-3" class="collapse" data-parent="#acc-4">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item accordion-item-s3 animated" data-animate="fadeInUp" data-delay="0.7">
-                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#acc-4-4">How do I benefit from the ICO Token? <span class="accordion-icon"></span></h5>
-                                                <div id="acc-4-4" class="collapse" data-parent="#acc-4">
-                                                    <div class="accordion-content">
-                                                        <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin. You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque ipsa.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .block @e -->
-                </div>
-
-            </section>
-            <!-- // -->
+ 
             <section class="section" id="contact">
 
                 <div class="container">
@@ -1550,13 +869,13 @@
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.2">
                                             <em class="contact-icon fas fa-phone"></em>
                                             <div class="contact-text">
-                                                <span>+44 0123 4567</span>
+                                                <span>+233 54 369 8348</span>
                                             </div>
                                         </li>
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.3">
                                             <em class="contact-icon fas fa-envelope"></em>
                                             <div class="contact-text">
-                                                <span>info@company.com</span>
+                                                <span>info@monartcity.net</span>
                                             </div>
                                         </li>
                                         <li class="animated" data-animate="fadeInUp" data-delay="0.4">
@@ -1595,7 +914,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6">
-                        <div class="copyright-text copyright-text-s2">Copyright © 2019 ICO. Handcrafted by <a href="#">iO</a>.</div>
+                        <div class="copyright-text copyright-text-s2">Copyright © 2021 MC.</div>
                     </div>
                 </div>
             </div>
